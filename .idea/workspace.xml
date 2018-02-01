@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e65d8f4e-12ae-4f70-b8a4-9364a79433e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/views/list.scala.html" afterPath="$PROJECT_DIR$/app/views/list.scala.html" />
-      <change beforePath="$PROJECT_DIR$/cloudformation/auto-scaling-group.yml" afterPath="$PROJECT_DIR$/cloudformation/auto-scaling-group.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="dynamo-table.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudformation/dynamo-table.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -49,8 +48,8 @@
       <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="116">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -60,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/cloudformation/auto-scaling-group.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="912">
-              <caret line="176" column="20" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
+              <caret line="176" column="24" lean-forward="false" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -70,8 +69,10 @@
         <entry file="file://$PROJECT_DIR$/app/views/list.scala.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -361,12 +362,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517493551757</updated>
-      <workItem from="1517493560294" duration="6924000" />
+      <workItem from="1517493560294" duration="8456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6924000" />
+    <option name="totallyTimeSpent" value="8456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1622" height="1741" extended-state="0" />
@@ -424,14 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloudformation/dynamo-table.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build-and-deploy-to-aws.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
@@ -456,10 +449,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloudformation/dynamo-table.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="116">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -467,7 +468,7 @@
     <entry file="file://$PROJECT_DIR$/cloudformation/auto-scaling-group.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
-          <caret line="176" column="20" lean-forward="true" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
+          <caret line="176" column="24" lean-forward="false" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -475,8 +476,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/list.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

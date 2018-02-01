@@ -1,18 +1,22 @@
+version: 2
+jobs:
+  test:
+    docker:
+      - image: adambene/circleci-openjdk-awscli
+    working_directory: ~/bootcamp-circle-cloudformation
+    steps:
+      - checkout
+      - run: sbt test
+  deploy:
+    docker:
+      - image: adambene/circleci-openjdk-awscli
+    working_directory: ~/bootcamp-circle-cloudformation
+    requires: test
+    steps:
+      - run: build-and-deploy-to-aws.sh steve-AutoScalingGroup-YK1KZ15SODKV super
 workflows:
   version: 2
-  jobs:
-    test:
-      docker:
-        - image: adambene/circleci-openjdk-awscli
-      working_directory: ~/bootcamp-circle-cloudformation
-      steps:
-        - checkout
-        - run: sbt test
-    deploy:
-      docker:
-        - image: adambene/circleci-openjdk-awscli
-      working_directory: ~/bootcamp-circle-cloudformation
-      requires: test
-      steps:
-        - run: build-and-deploy-to-aws.sh steve-AutoScalingGroup-YK1KZ15SODKV super
-
+  build_and_test:
+    jobs:
+      - test
+      - deploy

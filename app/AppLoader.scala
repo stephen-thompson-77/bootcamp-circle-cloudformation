@@ -20,7 +20,7 @@ class AppComponents(context: ApplicationLoader.Context) extends BuiltInComponent
     new EC2ContainerCredentialsProviderWrapper()
   )
 
-  val dynamoClient = AmazonDynamoDBClient.builder().withCredentials(awsCredsProvider).build()
+  val dynamoClient = AmazonDynamoDBClient.builder().withRegion("eu-west-1").withCredentials(awsCredsProvider).build()
   val tableName = configuration.get[String]("dynamo.table")
   val dynamoTable: Table[TodoItem] = Table[TodoItem](tableName)
 

@@ -8,6 +8,10 @@ jobs:
       - checkout
       - run: sbt test
   deploy:
+    docker:
+      - image: adambene/circleci-openjdk-awscli
+    working_directory: ~/bootcamp-circle-cloudformation
+    requires: test
     steps:
       - run: build-and-deploy-to-aws.sh steve-AutoScalingGroup-YK1KZ15SODKV super
 workflows:
